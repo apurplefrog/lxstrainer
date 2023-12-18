@@ -1,1 +1,35 @@
 <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LXS Trainer For ABP</title>
+    <script src="script.js"></script>
+    <!--https://github.com/cubing/scramble-display-->
+    <script src="https://cdn.cubing.net/js/scramble-display" type="module"></script>
+</head>
+<body>
+    <h1>LXS Trainer For APB - Made by apurplefrog</h1>
+    <scramble-display id="scramble" visualization="3D" scramble="x2 y"></scramble-display>
+    <h2 id="scramble-text">Scramble: </h2>
+    <button onclick="generateNewScramble();">New Scramble</button>
+    <button onclick="revealSolution();">Reveal Solution</button>
+    <h2 id="solution"></h2>
+    <form>
+        <input type="checkbox" id="allowsUFR" checked>
+        <label for="allowsUFR">Allow UFR Set</label>
+        <input type="checkbox" id="allowsRFU" checked>
+        <label for="allowsRFU">Allow RFU Set</label>
+        <input type="checkbox" id="allowsFUR" checked>
+        <label for="allowsFUR">Allow FUR Set</label>
+        <input type="checkbox" id="allowsDFR" checked>
+        <label for="allowsDFR">Allow DFR Set</label>
+        <input type="checkbox" id="allowsRDF" checked>
+        <label for="allowsRDF">Allow RDF Set</label>
+        <input type="checkbox" id="allowsFRD" checked>
+        <label for="allowsFRD">Allow FRD Set</label>
+        <input type="checkbox" id="allowsF2L" checked>
+        <label for="allowsF2L">Allow F2l</label>
+    </form>
+</body>
+</html>

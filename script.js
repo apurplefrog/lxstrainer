@@ -59,7 +59,7 @@ const scrambles = {
             "U' R U R2 U2 R U R U R",
             "R U R' U' S' U2 S",
             "U2 R' U2 R U R U' R' U R U R",
-            "U' R U R2 U' R U R'"
+            "U' R U R2 U' R U R"
         ], f2l: [
             "R2 D R' U2 R D' R' U R'",
             "U2 R U' R' U' R U R'",
